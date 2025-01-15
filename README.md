@@ -17,7 +17,7 @@ $$\vdots$$
 
 If we continue to iterate, each successive $z$ will get farther from the origin. In fact, mathematicians have shown that if the absolute value of any $z_n$ is greater than or equal to $2$, then the point will diverge, regardless of the value of $c$. Since $|z_2| = |3i| = 3 \geq 2$, we could have come to this conclusion 2 steps earlier. This program colors each pixel based on how many iterations it takes before we are sure the point diverges. Though, we can only check a finite number. After this maximum number of iterations, we assume the point does not diverge and color it black.
 
-The Mandelbrot set is done similarly. In this case, we start with $z_0 = 0$ and add the complex point. Thus, the Mandelbrot set includes every choice of $c$ for which $z_{n+1}=z_{n}^2+c$ does not diverge, rather than every choice of $z_0$ for the Julia set. Here is an example. We can see that $i$ is in the mandelbrot set. After only a few iterations, we notice that is enters a stable "orbit"
+The Mandelbrot set is done similarly. In this case, we start with $z_0 = 0$ and add the complex point. Thus, the Mandelbrot set includes every choice of $c$ for which $z_{n+1}=z_{n}^2+c$ does not diverge, rather than every choice of $z_0$ for the Julia set. Here is an example. We can see that $i$ is in the mandelbrot set. After only a few iterations, we notice that the iterations enter a stable "orbit."
 
 $$z_1 = (0)^2 + i = i$$
 $$z_2 = (i)^2 + i = -1 + i$$
