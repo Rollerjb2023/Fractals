@@ -3,11 +3,11 @@ Code to generate images of Mandelbrot and Julia sets
 
 ## Math Overview
 
-For a good explanation on these fractals, see [this Numberphile video.](https://www.youtube.com/watch?v=FFftmWSzgmk) For a quick explanation, continue reading. These fractals are based on the convergence of the sequence
+For a good explanation of Julia and Mandelbrot fractals, see [this Numberphile video.](https://www.youtube.com/watch?v=FFftmWSzgmk) For a quick explanation, continue reading. These fractals are based on the convergence of the sequence
 
 $$z_{n+1}=z_{n}^2+c$$
 
-where $z$ and $c$ are complex numbers. Take any complex $c$. The Julia set is the set of points in the complex plane for which if this point is $z_0$, $z_{n+1}=z_{n}^2+c$ converges for some $c$. For example, choose $c = i$. We can see that $z_0=1$ is not in this Julia set.
+where $z$ and $c$ are complex numbers. Take any complex $c$. The Julia set is the set of points in the complex plane for which if this point is $z_0$, then $z_{n+1}=z_{n}^2+c$ converges for some $c$. For example, choose $c = i$. We can see that $z_0=1$ is not in this Julia set.
 
 $$z_1 = (1)^2 + i = 1 + i$$
 $$z_2 = (1+i)^2 + i = 3i$$
