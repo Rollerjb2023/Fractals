@@ -7,7 +7,7 @@ For a good explanation of Julia and Mandelbrot fractals, see [this Numberphile v
 
 $$z_{n+1}=z_{n}^2+c$$
 
-where $z$ and $c$ are complex numbers. Take any complex $c$. The Julia set is the set of points in the complex plane for which if this point is $z_0$, then $z_{n+1}=z_{n}^2+c$ converges for said $c$. For example, choose $c = i$. We can see that $z_0=1$ is not in this Julia set.
+where $z$ and $c$ are complex numbers. Take any complex $c$. The Julia set is the set of points in the complex plane for which if this point is $z_0$, then $z_{n+1}=z_{n}^2+c$ converges. For example, choose $c = i$. We can see that $z_0=1$ is not in this Julia set.
 
 $$z_1 = (1)^2 + i = 1 + i$$
 $$z_2 = (1+i)^2 + i = 3i$$
